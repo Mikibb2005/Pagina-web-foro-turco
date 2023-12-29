@@ -1,7 +1,35 @@
 body {
     margin: 0%
 }
+.registro{
+    align-items: center;
+    justify-content: center;
 
+}
+.registro_campos{
+    align-items: center;
+    justify-content: center;
+    
+}
+.registro_boton{
+    background-color: #de8aff;
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boton{
+    color: #fff;
+    background-color: #de8aff;
+}
+.boton a {
+    text-decoration: none;
+    color: black;
+    animation-duration: 2s;
+}
+.boton a:hover {
+    color: blue;
+}
 .NAVBAR {
     text-align: center;
     background-color: rgb(232, 208, 255);
@@ -61,7 +89,7 @@ body {
 }
 
 main {
-    margin: 1%
+    margin: 2%
 }
 
 .TheGrefg {
