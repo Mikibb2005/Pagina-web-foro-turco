@@ -1,6 +1,7 @@
-body{
+body {
     margin: 0%
 }
+
 .NAVBAR {
     text-align: center;
     background-color: rgb(232, 208, 255);
@@ -55,17 +56,20 @@ body{
     width: 100%;
 }
 
-.HEAD{
+.HEAD {
     background-color: rgb(232, 208, 255);
 }
-main{
+
+main {
     margin: 1%
 }
-.TheGrefg{
+
+.TheGrefg {
     width: 100%;
     text-align: center;
 }
-.mensaje{
+
+.mensaje {
     text-align: left;
     padding: 1%;
 }
