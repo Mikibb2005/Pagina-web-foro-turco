@@ -32,11 +32,27 @@
             <a href="perfil.html">Perfil</a>
         </nav>
     </div>
-    <main>
-        <br><br><br>
-        <button class="boton">Crear nueva discusión</button>
+
+    <body>
+        <main>
+
+            <br><br><br>
+            <button id="openPopup">Crear una nueva discusión</button>
 
 
+            <div id="popup-container">
+                <div id="popup-inner">
+                    <label for="title">Título:</label>
+                    <input type="text" id="title" placeholder="Ingrese el título">
 
+                    <label for="description">Descripción:</label>
+                    <textarea id="description" placeholder="Ingrese la descripción"></textarea>
 
-    </main>
+                    <button id="createButton">Crear</button>
+                    <button id="closePopup">Cerrar</button>
+                </div>
+            </div>
+
+            <script src="script.js"></script>
+        </main>
+    </body>
