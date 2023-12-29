@@ -1,0 +1,71 @@
+body{
+    margin: 0%
+}
+.NAVBAR {
+    text-align: center;
+    background-color: rgb(232, 208, 255);
+}
+
+.NAVBAR a {
+    text-decoration: none;
+    color: black;
+    padding: 5%;
+    animation-duration: 5s;
+}
+
+.NAVBAR a:hover {
+    color: blue;
+}
+
+.LOGO a img {
+    margin-top: 10px;
+    margin-left: 10px;
+
+    border-radius: 100%;
+}
+
+.Tabla_mensajes {
+    text-align: center;
+    align-content: center;
+    outline: 1px rgb(235, 37, 235) solid;
+    background-color: rgb(232, 208, 255);
+    width: 100%;
+    justify-content: center;
+}
+
+.Tabla_mensajes a {
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+    animation-duration: 5s;
+}
+
+.Tabla_mensajes a:hover {
+    color: blue;
+}
+
+.titol {
+    display: flex;
+    align-items: center;
+    color: blueviolet;
+}
+
+.patata {
+    text-align: center;
+    width: 100%;
+}
+
+.HEAD{
+    background-color: rgb(232, 208, 255);
+}
+main{
+    margin: 1%
+}
+.TheGrefg{
+    width: 100%;
+    text-align: center;
+}
+.mensaje{
+    text-align: left;
+    padding: 1%;
+}
