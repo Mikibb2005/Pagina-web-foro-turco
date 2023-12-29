@@ -86,10 +86,12 @@ main {
 }
 
 #popup-inner {
-    max-width: 600px;
-    margin: 25%;
+    max-width: auto;
+    max-height: auto;
+    margin: 20%;
     padding: 20px;
     background: #fff;
+    justify-content: center;
 }
 
 label {
@@ -121,5 +123,5 @@ button {
     cursor: pointer;
     justify-content: center;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
 }
